@@ -27,7 +27,5 @@ gridNodeList.forEach((node) =>{
 
 
 restartBtn.addEventListener('click', function() {
-    gridContainer.toggleAttribute('repeat(${numberOfSquares}, 1fr');
-    newNumber = prompt('Please enter a number up to 64');
-
+    window.location.reload();
 })
